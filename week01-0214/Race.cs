@@ -38,7 +38,9 @@ namespace Maraton {
 
             for (int i = 0; i < end_results.Length + 1; i++) {
                 for (int j = i + 1; j < end_results.Length; j++) {
-                    if (end_results[i].Distance < end_results[j].Distance) {
+                    if ((end_results[i].Distance < end_results[j].Distance)
+                     || ((end_results[i].Distance == end_results[j].Distance)
+                        && (end_results[i].Time > end_results[j].Time))) {
                         temp = end_results[i];
                         end_results[i] = end_results[j];
                         end_results[j] = temp;

@@ -36,16 +36,16 @@ namespace Maraton {
             time++;
 
             if ((time > 60) && (time <= 90)) {
-                gave_up = (1 == random.Next(1, 1000));
+                gave_up = (1 == random.Next(1, 10000));
             }
             else if ((time > 90) && (time <= 120)) {
-                gave_up = (1 == random.Next(1, 500));
+                gave_up = (1 == random.Next(1, 5000));
             }
             else if ((time > 120) && (time <= 180)) {
-                gave_up = (1 == random.Next(1, 333));
+                gave_up = (1 == random.Next(1, 3330));
             }
             else if (time > 180) {
-                gave_up = (1 == random.Next(1, 200));
+                gave_up = (1 == random.Next(1, 2000));
             }
 
             km_diff = (speed * time) % Consts.KM_TO_METER;

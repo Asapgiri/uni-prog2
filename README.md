@@ -6,7 +6,7 @@
 | **2.**  | Feb. 21. | [Öröklődés](week02-0221)             |                 |
 | **3.**  | Feb. 28. | [Interfészek](week02-0228)           |                 |
 | **4.**  | Már. 06. | [Tesztelés](week04-0306)             |                 |
-| **5.**  | Már. 13. | Kivételkezelés                       |                 |
+| **5.**  | Már. 13. | [Kivételkezelés](week05-0313)        |                 |
 | **6.**  | Már. 20. | Delegáltak, események                |                 |
 | **7.**  | Már. 27. | Összetett programozási paradigmák    | 1. ZÁRTHELYI    |
 | **8.**  | Ápr. 03. | Szünet                               |                 |
